@@ -1,0 +1,11 @@
+[package]
+name = "eBPF_Assignment"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+libbpf-rs = "0.19"
+
+[build-dependencies]
+libbpf-cargo = "0.13"

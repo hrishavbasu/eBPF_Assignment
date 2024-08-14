@@ -1,0 +1,11 @@
+{
+    "name": "eBPF Development",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "ebpf-dev",
+    "workspaceFolder": "/app",
+    "extensions": [
+        "rust-lang.rust-analyzer",
+        "ms-vscode.cpptools"
+    ],
+    "remoteUser": "root"
+}
